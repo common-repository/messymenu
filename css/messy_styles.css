@@ -1,0 +1,201 @@
+/* CSS Document */
+.wp-list-table tbody {
+    cursor: pointer;
+}
+
+.wrap {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    margin-top: 0;
+}
+
+div.wp-menu-image:before,
+td.column-orderable {
+    color: #a7aaad !important;
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.widefat td {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .02rem;
+}
+
+.widefat thead td, 
+.widefat thead th {
+    border: 0 !important;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+input[type="submit"],
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-primary,
+.button-secondary {
+    background: #f0f0f1 !important;
+    /* border-color: red !important; */
+    color: #333 !important;
+    padding: 4px 24px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    letter-spacing: .01rem !important;
+    border-radius: 60px !important;
+    font-size: 11px !important;
+    border: 1px solid #ccc !important;
+}
+
+.button-secondary {
+    margin-left: 10px !important;
+    border: none !important;
+    color: #666 !important;
+}
+
+.button-primary:hover, 
+.button-secondary:hover {
+    color: #fff !important;
+    background-color: #005d8a !important;
+    border-color: none !important;
+}
+
+.column-icon {
+    width: 5%;
+}
+
+.column-title {
+    width: 35%;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+table {
+    width: 97% !important;
+    border: none !important;
+    background-color: #FFF !important;
+    padding: 20px !important;
+    border-radius: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.messy-dashicons .dashicons-before {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+
+#messymenu_icon, 
+#messymenu_position {
+    height: 42px !important;
+    max-width: 100% !important;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+th.manage-column {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .04rem;
+    padding-bottom: 20px;
+}
+
+input#cb-select-all-1 {
+    margin: -8px 0 0 8px;
+}
+
+td.column-position, 
+th.manage-column.column-position {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.row {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.row .column {
+    width: 48%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.note {
+    font-size: 10px;
+    margin: 0 20px 0 12px;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.wp-core-ui select {
+    font-size: 13px !important;
+}
+
+span.edit {
+    font-size: 11px;
+    letter-spacing: 0;
+    font-weight: 600;
+}
